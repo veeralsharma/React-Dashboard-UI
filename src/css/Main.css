@@ -6,7 +6,17 @@
 
 .main-hero{
     flex: 44;
-    background-color: blueviolet;
+    background: url('../images/heroImg.jpg') right no-repeat;
+    background-size: 70% 100%;
+    background-color: #f3c6bd;
+}
+
+.main-hero h1{
+    font-weight:800;
+    font-size:3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5% ;
+    color: #2b4972;
 }
 
 .main-lower{
@@ -16,7 +26,31 @@
 }
 
 .chart-div{
-    background-color: blueviolet;
+    background-color: #fff;
+    box-shadow: 1px 3px 10px 0px rgba(56, 55, 55, 0.44);
     margin-top: 2%;
     flex: 1;
+}
+
+
+.welcome{
+    font-weight: 100;
+}
+
+
+.city{
+    background-color: #e4a598;
+    width: 12vw;
+    border-radius: 48px;
+    margin-left:5% ;
+    padding:0.1px 0px;
+    margin-top: 5%;
+}
+
+.city-text{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1.5vw;
+    text-align: center;
 }
