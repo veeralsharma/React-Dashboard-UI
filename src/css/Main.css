@@ -30,6 +30,7 @@
     box-shadow: 1px 3px 10px 0px rgba(56, 55, 55, 0.44);
     margin-top: 2%;
     flex: 1;
+    display: flex;
 }
 
 
@@ -53,4 +54,18 @@
     font-weight: 200;
     font-size: 1.5vw;
     text-align: center;
+}
+
+.Pie{
+    flex:1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.Bar{
+    flex: 1;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
 }

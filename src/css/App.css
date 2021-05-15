@@ -1,11 +1,11 @@
 body{
-    padding: 0.5%;
+    padding: 1vh;
     background-color: #f6f2ed;
   }
   
 .App{
     display: flex;
-    height: 100vh;
+    height: 95vh;
     flex-direction: row;
 }
   
