@@ -1,10 +1,25 @@
 body{
-    margin: 0;
-  }
-  
-  .App{
-    display: flex;
-    height: 100vh;
+    padding: 1.5%;
     background-color: #f6f2ed;
   }
   
+.App{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+}
+  
+.sidebar-div{
+  flex:1;
+  display: flex;
+  margin-right:2%;
+}
+
+.main-div{
+  flex:4;
+  display: flex;
+}
+
+.container{
+  border-radius: 16px;
+}

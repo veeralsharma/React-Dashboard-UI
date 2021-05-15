@@ -1,0 +1,22 @@
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-hero{
+    flex: 44;
+    background-color: blueviolet;
+}
+
+.main-lower{
+    flex: 59;
+    display: flex;
+    flex-direction: row;
+}
+
+.chart-div{
+    background-color: blueviolet;
+    margin-top: 2%;
+    flex: 1;
+}
